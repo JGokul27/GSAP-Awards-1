@@ -1,78 +1,89 @@
 // index.js
 export const servicesData = [
   {
-    title: "FullStack Development",
+    title: "Front End Development",
     description:
-      "Your business deserves a fast, secure, and future-proof digital foundation. I develop custom web apps with clean architecture, optimized databases, and seamless integrations—ensuring reliability at every layer.",
+    "Your users deserve a beautiful, fast, and responsive experience. I craft intuitive user interfaces with modern frameworks, responsive design, and smooth interactions—ensuring performance and accessibility across every screen.",
     items: [
       {
-        title: "Backend Engineering",
+        title: "React Js",
         description: "(REST/GraphQL APIs, Microservices, Auth Systems)",
       },
       {
-        title: "Frontend Excellence",
+        title: "JavaScript",
         description: "(React, Vue, TypeScript, Interactive UI/UX)",
       },
       {
-        title: "Database Design",
+        title: "Tailwind CSS",
         description: "(SQL/NoSQL Optimization, Scalable Structures)",
       },
     ],
   },
   {
-    title: "DevOps & Cloud Solutions",
+    title: "Back End Development",
     description:
-      "Deploying software shouldn't be a gamble. I automate infrastructure, enforce security, and leverage cloud platforms (AWS/Azure) to keep your app running smoothly—24/7, at any scale.",
+      "Behind every great app is a rock-solid backend. I engineer scalable, secure, and maintainable server-side systems with clean architecture, efficient APIs interactions—built to handle real-world traffic and logic",
     items: [
       {
-        title: "CI/CD Pipelines",
+        title: "Node Js",
         description: "(GitHub Actions, Docker, Kubernetes)",
       },
       {
-        title: "Server Management ",
+        title: "Express Js",
         description: "(Linux, Nginx, Load Balancing)",
       },
+    ],
+  },
+  {
+    title: "Database",
+    description:
+      "Built for performance and scalability, my database implementations ensure lightning-fast responses, smooth integrations, and data integrity across all use cases",
+    items: [
       {
-        title: "Performance Tuning",
+        title: "MongoDB",
+        description: "(Caching, Compression, Lighthouse 90+ Scores)",
+      },
+      {
+        title: "SQL",
+        description: "(Caching, Compression, Lighthouse 90+ Scores)",
+      },
+      {
+        title: "Supabase",
         description: "(Caching, Compression, Lighthouse 90+ Scores)",
       },
     ],
   },
   {
-    title: "Security & Optimization",
+    title: "UI Libraries",
     description:
-      "Slow or hacked apps destroy trust. I harden security (XSS/SQLI protection, OAuth) and optimize bottlenecks so your app stays fast, safe, and scalable as you grow.",
+      "Fast styling, sleek design, zero hassle. I use UI libraries that deliver elegance, speed, and flexibility—right out of the box",
     items: [
       {
-        title: "Code Audits",
+        title: "Tailwind CSS",
         description: "(Refactoring, Tech Debt Cleanup)",
       },
       {
-        title: "Pen Testing",
+        title: "Material UI",
         description: "(Vulnerability Assessments)",
       },
       {
-        title: "SEO Tech Stack",
+        title: "Shadcn",
         description: "(SSR, Metadata, Structured Data)",
       },
     ],
   },
   {
-    title: "Web & Mobile Apps",
+    title: "Animation Libraries",
     description:
-      "A clunky interface can sink even the best ideas. I craft responsive, pixel perfect web and mobile apps (React Native/Flutter) that users love—bridging design and functionality seamlessly.",
+      "Design is what you see, animation is what you feel. I use modern libraries to craft fluid UI experiences that feel natural, responsive, and delightful",
     items: [
       {
-        title: "Cross-Platform Apps",
+        title: "Framer Motion",
         description: "(Single codebase for iOS/Android/Web)",
       },
       {
-        title: "PWAs",
+        title: "GSAP",
         description: "(Offline mode, Push Notifications)",
-      },
-      {
-        title: "E-Commerce",
-        description: "(Checkout flows, Payment Gateways, Inventory APIs)",
       },
     ],
   },
@@ -80,102 +91,66 @@ export const servicesData = [
 export const projects = [
   {
     id: 1,
-    name: "Mobile Accessories E-commerce",
+    name: "Doctor Appointment Booking",
     description:
-      "An online store specializing in phone accessories including cases, chargers, cables, and power banks with MagSafe compatibility.",
+      "An online platform for booking doctor appointments, offering real-time availability, specialty-based search, and secure patient-doctor scheduling with automated reminders.",
     href: "",
-    image: "/assets/projects/mobile-accessories-store.jpg",
+    image: "/assets/projects/Doctor.png",
     bgImage: "/assets/backgrounds/blanket.jpg",
     frameworks: [
-      { id: 1, name: "React" },
-      { id: 2, name: "Next.js" },
-      { id: 3, name: "Node.js" },
+      { id: 1, name: "React.js" },
+      { id: 2, name: "Node.js" },
+      { id: 3, name: "Express.js" },
       { id: 4, name: "MongoDB" },
       { id: 5, name: "Tailwind CSS" },
     ],
   },
   {
     id: 2,
-    name: "Plant Shop E-commerce",
+    name: "AI Recruiter - Voice Agent",
     description:
-      "An online store specializing in rare and decorative plants with a clean, user-friendly interface.",
+      "An AI-powered voice interview platform that simulates recruiter interactions, generates real-time questions, captures user responses, and provides instant feedback with category-wise scoring—built to automate and scale the job screening process.",
     href: "",
-    image: "/assets/projects/plant-shop.jpg",
+    image: "/assets/projects/AI-recruit.png",
     bgImage: "/assets/backgrounds/curtains.jpg",
     frameworks: [
-      { id: 1, name: "React" },
+      { id: 1, name: "React.js" },
       { id: 2, name: "Next.js" },
-      { id: 3, name: "Stripe API" },
+      { id: 3, name: "Supabase" },
       { id: 4, name: "Tailwind CSS" },
+      { id: 5, name: "Vapi AI" },
     ],
   },
   {
     id: 3,
-    name: "Apple Tech Marketplace",
+    name: "Awards Winning",
     description:
-      "An e-commerce platform for Apple products and accessories with deals and category filtering.",
+      "An award-winning interactive website featuring smooth scroll animations, layered text effects, and immersive transitions—crafted using GSAP for a seamless and visually stunning user experience.",
     href: "",
-    image: "/assets/projects/apple-tech-store.jpg",
+    image: "/assets/projects/awards.png",
     bgImage: "/assets/backgrounds/map.jpg",
     frameworks: [
-      { id: 1, name: "Blazor" },
-      { id: 2, name: "ASP.NET Core" },
-      { id: 3, name: "SQL Server" },
-      { id: 4, name: "Bootstrap" },
+      { id: 1, name: "React.js" },
+      { id: 2, name: "Tailwind CSS" },
+      { id: 3, name: "GSAP" },
     ],
   },
   {
     id: 4,
-    name: "Electronics & Gadgets Store",
+    name: "E-commerce Website",
     description:
-      "A multi-category online shop featuring electronics, home appliances, and gaming gear with special offers.",
+      "A multi-category online shop featuring electronics, Cloths & Shoes, and accessories with special offers.",
     href: "",
-    image: "/assets/projects/electronics-store.jpg",
+    image: "/assets/projects/e-commerce.png",
     bgImage: "/assets/backgrounds/poster.jpg",
     frameworks: [
-      { id: 1, name: "Vue.js" },
-      { id: 2, name: "Laravel" },
-      { id: 3, name: "MySQL" },
-      { id: 4, name: "SCSS" },
-    ],
-  },
-  {
-    id: 5,
-    name: "Home Decor Marketplace",
-    description:
-      "A curated collection of designer home decor items, including furniture and artisan vases.",
-    href: "",
-    image: "/assets/projects/home-decor-store.jpg",
-    bgImage: "/assets/backgrounds/table.jpg",
-    frameworks: [
-      { id: 1, name: "Angular" },
-      { id: 2, name: "Firebase" },
-      { id: 3, name: "GraphQL" },
-      { id: 4, name: "Material UI" },
-    ],
-  },
-  {
-    id: 6,
-    name: "Digital Game Store",
-    description:
-      "A gaming platform featuring discounted titles, top sellers, and genre-based browsing.",
-    href: "",
-    image: "/assets/projects/game-store.jpg",
-    bgImage: "/assets/backgrounds/curtains.jpg",
-    frameworks: [
-      { id: 1, name: "Svelte" },
-      { id: 2, name: "Node.js" },
-      { id: 3, name: "MongoDB" },
-      { id: 4, name: "Chakra UI" },
+      { id: 1, name: "React.js" },
+      { id: 2, name: "Tailwind CSS" },
     ],
   },
 ];
 export const socials = [
-  { name: "Instagram", href: "https://www.instagram.com/ali.sanatidev/reels/" },
-  {
-    name: "Youtube",
-    href: "https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA",
-  },
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/ali-sanati/" },
-  { name: "GitHub", href: "https://github.com/Ali-Sanati" },
+  { name: "Instagram", href: "https://www.instagram.com/warlord_goku/" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/gokul-j-91183530a/" },
+  { name: "GitHub", href: "https://github.com/JGokul27" },
 ];
